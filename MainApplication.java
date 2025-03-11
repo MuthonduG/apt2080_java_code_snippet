@@ -7,5 +7,7 @@ public class MainApplication {
 
         curAdmin.performOperation(new Update()); // Admin Updates the data.
         curUser.performOperation(new View());   // User can view the data.
+
+        // System.out.println(curAdmin.id);
     }
 }

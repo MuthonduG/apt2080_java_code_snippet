@@ -1,14 +1,11 @@
 // Admin class extending Account
 public class Admin extends Account {
 
-    private String authPassword;
+    private String AuthPassword;
 
-    public Admin(int id, String name, String password) {
-        super(id, name);
-        this.authPassword = password;
-    }
-
-    public String getAuthPassword() {
-        return authPassword;
+    public Admin(int _id, String _name, String _password) {
+        id = _id;
+        name = _name;
+        AuthPassword = _password;
     }
 }
